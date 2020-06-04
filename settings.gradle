@@ -1,0 +1,3 @@
+include ':foldabletextview'
+include ':app'
+rootProject.name = "FoldableTextView"

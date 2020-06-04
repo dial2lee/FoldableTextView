@@ -1,0 +1,11 @@
+<resources>
+    <declare-styleable name="FoldableTextView">
+        <attr name="hasAnimation" format="boolean"/>
+        <attr name="closeInNewLine" format="boolean"/>
+        <attr name="closeAlignRight" format="boolean"/>
+        <attr name="openSuffixColor" format="color"/>
+        <attr name="closeSuffixColor" format="color"/>
+        <attr name="openSuffixText" format="string"/>
+        <attr name="closeSuffixText" format="string"/>
+    </declare-styleable>
+</resources>
