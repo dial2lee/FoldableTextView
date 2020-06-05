@@ -97,6 +97,7 @@ public class FoldableTextView extends AppCompatTextView {
         hasAnimation = typedArray.getBoolean(R.styleable.FoldableTextView_hasAnimation, true);
         mCloseInNewLine = typedArray.getBoolean(R.styleable.FoldableTextView_closeInNewLine, false);
         mCloseisRightAlign = typedArray.getBoolean(R.styleable.FoldableTextView_closeAlignRight, false);
+        isClickToggleState = typedArray.getBoolean(R.styleable.FoldableTextView_isClickToggleState, false);
         mOpenSuffixColor = typedArray.getColor(R.styleable.FoldableTextView_closeSuffixColor, Color.parseColor("#F23030"));
         mCloseSuffixColor = typedArray.getColor(R.styleable.FoldableTextView_openSuffixColor, Color.parseColor("#F23030"));
         mOpenSuffixStr = typedArray.getString(R.styleable.FoldableTextView_openSuffixText);

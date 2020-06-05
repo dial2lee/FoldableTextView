@@ -7,5 +7,6 @@
         <attr name="closeSuffixColor" format="color"/>
         <attr name="openSuffixText" format="string"/>
         <attr name="closeSuffixText" format="string"/>
+        <attr name="isClickToggleState" format="boolean"/>
     </declare-styleable>
 </resources>

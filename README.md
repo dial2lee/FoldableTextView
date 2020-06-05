@@ -7,15 +7,16 @@
 控件的属性
 --------
 
-| 属性             | 说明                                   |
-| ---------------- | -------------------------------------- |
-| hasAnimation     | 在‘收起’和‘展开’时是否需要展示动画效果 |
-| closeInNewLine   | ‘收起’是否需要在展示在新的一行         |
-| closeAlignRight  | ‘收起’是否对齐到控件的右侧             |
-| openSuffixColor  | ‘展开’文本的颜色                       |
-| closeSuffixColor | ‘收起’文本的颜色                       |
-| openSuffixText   | ‘展开’文本                             |
-| closeSuffixText  | ‘收起’文本                             |
+| 属性               | 说明                              |
+| ------------------ | -------------------------------- |
+| hasAnimation       | 在‘收起’和‘展开’时是否需要展示动画效果 |
+| closeInNewLine     | ‘收起’是否需要在展示在新的一行        |
+| closeAlignRight    | ‘收起’是否对齐到控件的右侧           |
+| openSuffixColor    | ‘展开’文本的颜色                    |
+| closeSuffixColor   | ‘收起’文本的颜色                    |
+| openSuffixText     | ‘展开’文本                         |
+| closeSuffixText    | ‘收起’文本                         |
+| isClickToggleState | 是否点击文本切换‘展开’和‘收起’状态     |
 
 控件的使用
 ---------
@@ -30,6 +31,7 @@
         app:closeInNewLine="false"
         app:closeSuffixColor="@color/colorAccent"
         app:hasAnimation="true"
+        app:isClickToggleState="false"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
